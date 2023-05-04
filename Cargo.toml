@@ -19,7 +19,7 @@ authors = [
 edition = "2021"
 
 [dependencies]
-libc = "0.2.105"
+libc = "0.2.98"
 goblin = "0.4.3"
 nix = "0.23.1"
 itertools = "0.10.1"
