@@ -13,7 +13,7 @@
 #![allow(dead_code)]
 
 mod blueprint;
-mod bpf;
+pub mod bpf;
 mod cpu_info;
 mod debugfs;
 mod error;

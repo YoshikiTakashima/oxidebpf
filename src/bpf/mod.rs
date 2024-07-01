@@ -84,7 +84,7 @@ impl MapConfig {
 
 #[repr(C)]
 #[derive(Clone, Copy, Debug)]
-pub(crate) struct MapDefinition {
+pub struct MapDefinition {
     pub map_type: c_uint,
     pub key_size: c_uint,
     pub value_size: c_uint,
